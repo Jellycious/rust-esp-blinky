@@ -1,12 +1,11 @@
 #!/bin/bash
-
+CONTAINER_NAME=esp-blinky-dev
 
 RELEASE=app/target/xtensa-esp32-none-elf/release/blinky
 DEBUG=app/target/xtensa-esp32-none-elf/debug/blinky
 
 TARGET=$DEBUG
 
-CONTAINER_NAME=esp-blinky-dev
 
 CARGO_FLAGS=""
 
